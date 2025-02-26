@@ -1,0 +1,51 @@
+.navbar{
+    background-color: #57A6A1;
+}
+.navbar a{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Parkinsans", serif;
+}
+.navbar a:hover{
+    color: #fff;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.montserrat-md{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000;
+}
+.parkinsans-md{
+    font-family: "Parkinsans", serif;
+    font-weight: 400;
+}
+.f14{
+    font-size: 14px;
+}
+.f16{
+    font-size: 16px;
+}
+.f18{
+    font-size: 18px;
+}
+.f20{
+    font-size: 20px;
+}
+.f24{
+    font-size: 24px;
+}
+.f28{
+    font-size: 28px;
+}
+.f36{
+    font-size: 36px;
+}
+.best-employee{
+    color: #6776f4;
+    font-weight: bold;
+    font-style: italic;
+}
