@@ -33,6 +33,7 @@
                                             </div>
                                             <div class="col-md-8 mt-3">
                                                 <h6 class="montserrat-md f14">{{ $karyawan->name }}</h6>
+                                                <h6 class="montserrat-md f14 f-blue">Nip : 20251207{{ $karyawan->id }}</h6>
                                                 <h6 class="montserrat-md f14">Karyawan</h6>
                                                 <h6 class="montserrat-md f14">{{ $karyawan->alamat ?? 'Alamat tidak tersedia' }}</h6>
                                             </div>

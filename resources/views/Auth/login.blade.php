@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dashboard | Purwo Damar Jati</title>
+    <title>Halaman Login Kiat Ananda Group</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('Admin/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('Admin/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('Admin/img/Logo-kiat.jpeg')}}" rel="icon">
+    <link href="{{asset('Admin/img/Logo-kiat.jpeg')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="{{url('https://fonts.gstatic.com')}}" rel="preconnect">
@@ -39,7 +39,7 @@
     <div class="d-flex justify-content-center align-items-center vh-100">
         <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
             <div class="card-header text-center">
-                <h3 class="title-section mb-3">Login</h3>
+                <img src="{{asset('Admin/img/Logo-kiat.jpeg')}}" class="logo-login" alt="kiat-ananda" loading="lazy">
             </div>
             <form method="POST" action="{{ route('login') }}">
                 @csrf
@@ -55,9 +55,19 @@
                     <button type="submit" class="btn btn-primary">Login</button>
                 </div>
             </form>
+            <small class="mt-3 footnote">* Website Khusus Pegawai Kiat Ananda Group</small>
+            <small class="footnote">* Gunakan Akun yang telah diberikan oleh Staff/Hrd</small>
         </div>
     </div>
 
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ asset('Admin/img/Logistic.jpg') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 
     <!-- Vendor JS Files -->
     <script src="{{url('https://cdn.jsdelivr.net/npm/sweetalert2@11')}}"></script>

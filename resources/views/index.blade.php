@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dashboard | Purwo Damar Jati</title>
+    <title>Dashboard | Kiat Ananda Group</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('Admin/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('Admin/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('Admin/img/Logo-kiat.jpeg')}}" rel="icon">
+    <link href="{{asset('Admin/img/Logo-kiat.jpeg')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="{{url('https://fonts.gstatic.com')}}" rel="preconnect">

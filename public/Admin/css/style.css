@@ -1289,11 +1289,10 @@ h6 {
     font-size: 28px;
 }
 .title-section{
-    font-family: "Parkinsans", serif;
+    font-family: "Montserrat", serif;
     font-size: 28px;
     font-weight: 400;
     color: #000;
-    text-transform: capitalize;
 }
 .icons-sidebar{
     font-size: 16px !important;
@@ -1311,5 +1310,21 @@ h6 {
 .best-employee{
     color: #6776f4;
     font-weight: bold;
+    font-style: italic;
+}
+.footnote{
+    font-size: 12px;
+    font-family: 'Parkinsans', serif;
+    color: red;
+}
+.logo-login{
+    width: 250px;
+}
+.logo-sidebar{
+    width: 150px;
+    height: 100px;
+}
+.f-blue{
+    color: #3D74B6;
     font-style: italic;
 }
